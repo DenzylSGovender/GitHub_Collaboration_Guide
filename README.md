@@ -253,17 +253,17 @@ GitHub will detect a merge conflict.
 Part 12 — Resolve Conflict
 
 Git will show:
-
+```csharp
 <<<<<<< HEAD
 Console.WriteLine("Welcome to the Team Application");
 =======
 Console.WriteLine("Welcome to the C# Collaboration Project");
 >>>>>>> branch
-
+```
 Resolve it like this:
-
+```csharp
 Console.WriteLine("Welcome to the C# Team Collaboration Application");
-
+```
 Then:
 
 Commit the merge
