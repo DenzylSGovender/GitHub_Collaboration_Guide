@@ -114,6 +114,7 @@ namespace TeamApp
         }
     }
 }
+```
 ---
 ## Part 5 — First Commit
 
@@ -145,6 +146,7 @@ feature-style
 Student 1 — Greeting Feature
 
 Modify:
+```csharp
 static void Greeting()
 {
     Console.Write("Enter your name: ");
@@ -152,7 +154,7 @@ static void Greeting()
 
     Console.WriteLine("Welcome " + name + "!");
 }
-
+```
 Commit message:
 
 Added personalised greeting
@@ -161,7 +163,7 @@ Added personalised greeting
 Student 2 — Calculator Feature
 
 Modify:
-
+```csharp
 static void Calculator()
 {
     Console.Write("Enter first number: ");
@@ -174,7 +176,7 @@ static void Calculator()
 
     Console.WriteLine("Result = " + result);
 }
-
+```
 Commit message:
 
 Added simple calculator
@@ -182,20 +184,21 @@ Added simple calculator
 Student 3 — Improve Menu
 
 Modify:
-
+```csharp
 Console.WriteLine("===== TEAM APPLICATION =====");
 Console.WriteLine("1 - Greeting System");
 Console.WriteLine("2 - Calculator Tool");
 Console.WriteLine("3 - Exit Program");
-
+```
 Student 4 — Exit Feature
 
 Add:
-
+```csharp
 else if (choice == 3)
 {
     Console.WriteLine("Goodbye!");
 }
+```
 
 ## Part 8 — Create Pull Requests
 
@@ -236,13 +239,13 @@ To simulate a conflict:
 Two students edit the same line.
 
 Student A:
-
+```csharp
 Console.WriteLine("Welcome to the Team Application");
-
+```
 Student B:
-
+```csharp
 Console.WriteLine("Welcome to the C# Collaboration Project");
-
+```
 Both push their changes.
 
 GitHub will detect a merge conflict.
